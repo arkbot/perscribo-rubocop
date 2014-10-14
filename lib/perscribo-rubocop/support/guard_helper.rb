@@ -7,6 +7,7 @@ DEFAULT_RUBOCOP_CLI = [
 DEFAULT_RUBOCOP_OPTS = {
   all_on_start: false,
   cli: "#{DEFAULT_RUBOCOP_CLI.join(' ')}",
+  hide_stdout: true,
   notification: true
 }
 log_output('RuboCop', "./#{DEFAULT_RUBOCOP_RESULTS}", :info, :failure, :success)
