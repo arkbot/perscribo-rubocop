@@ -10,4 +10,4 @@ DEFAULT_RUBOCOP_OPTS = {
   hide_stdout: true,
   notification: true
 }
-log_output('RuboCop', "./#{DEFAULT_RUBOCOP_RESULTS}", :info, :failure, :success)
+log_output('RuboCop', "#{DEFAULT_RUBOCOP_RESULTS}", :info, :failure, :success)
