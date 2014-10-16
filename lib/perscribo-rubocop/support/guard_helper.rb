@@ -1,4 +1,4 @@
-DEFAULT_RUBOCOP_RESULTS = "tmp/perscribo_rubocop.log"
+DEFAULT_RUBOCOP_RESULTS = "#{Dir.pwd}/tmp/perscribo_rubocop.log"
 DEFAULT_RUBOCOP_CLI = [
   "--require #{File.dirname(__FILE__)}/../rubocop/perscribo_formatter.rb",
   '--format RuboCop::Formatter::PerscriboFormatter',
