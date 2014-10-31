@@ -7,7 +7,7 @@ module Perscribo
     class Formatter < ::RuboCop::Formatter::ProgressFormatter
       def initialize(*args)
         super(*args)
-        Support::Core::IO.hook!(@output, :info)
+        @output = Support::Core::IO.hook!(@output, :info)
       end
 
       def started(target_files)

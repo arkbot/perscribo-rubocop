@@ -4,7 +4,7 @@ module Perscribo
   module Support
     module Guard
       module RuboCop
-        REQ_PATH = File.expand_path('/../../rubocop/formatter.rb', __FILE__)
+        REQ_PATH = File.expand_path('../../../rubocop/formatter.rb', __FILE__)
         OUT_PATH = "#{Dir.pwd}/tmp/perscribo_rubocop_#{ENV['RACK_ENV']}.log"
         DEFAULTS = {
           labels: [:info, :failure, :success],
