@@ -33,7 +33,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'terminal-notifier-guard'
 
   spec.add_dependency 'colorize'
-  spec.add_dependency 'rubocop', '~> 0.26.1'
+  spec.add_dependency 'rubocop', '~> 0.27.0'
 
   spec.add_dependency 'perscribo'
 end
